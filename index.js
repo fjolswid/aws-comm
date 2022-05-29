@@ -1,5 +1,4 @@
-const getQeueu = () => {
-    return 'test';
-}
+const { initSqsClient } = require('./lib/sqs-client');
+const { getQueue } = require('./lib/get-queue');
 
-module.exports = { getQeueu };
+module.exports = { getQueue, initSqsClient };

@@ -24,5 +24,8 @@
   "homepage": "https://github.com/fjolswid/aws-comm#readme",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.34.0"
   }
 }
